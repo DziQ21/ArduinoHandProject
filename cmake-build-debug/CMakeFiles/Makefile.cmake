@@ -53,4 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/reka.dir/DependInfo.cmake"
   "CMakeFiles/HandRecorder.dir/DependInfo.cmake"
+  "CMakeFiles/handwithoutArdruino.dir/DependInfo.cmake"
   )

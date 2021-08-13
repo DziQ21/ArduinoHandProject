@@ -111,6 +111,48 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="handwithoutArdruino">
+				<Option output="C:/lapa/cmake-build-debug/handwithoutArdruino.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/lapa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 handwithoutArdruino"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="handwithoutArdruino/fast">
+				<Option output="C:/lapa/cmake-build-debug/handwithoutArdruino.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/lapa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 handwithoutArdruino/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/lapa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/lapa/cmake-build-debug"/>
 				<Option type="4"/>
@@ -124,41 +166,52 @@
 		</Build>
 		<Unit filename="C:/lapa/MouseController.cpp">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/MouseController.h">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/SerialPort.cpp">
 			<Option target="reka"/>
 			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/SerialPort.h">
 			<Option target="reka"/>
 			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
+		</Unit>
+		<Unit filename="C:/lapa/StringGetter.cpp">
+			<Option target="handwithoutArdruino"/>
+		</Unit>
+		<Unit filename="C:/lapa/StringGetter.hpp">
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/ThreeDimVector.cpp">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/ThreeDimVector.h">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/VectorMovementConverter.cpp">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/VectorMovementConverter.h">
 			<Option target="reka"/>
-			<Option target="HandRecorder"/>
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/main.cpp">
 			<Option target="reka"/>
 		</Unit>
 		<Unit filename="C:/lapa/main2.cpp">
 			<Option target="HandRecorder"/>
+		</Unit>
+		<Unit filename="C:/lapa/main3.cpp">
+			<Option target="handwithoutArdruino"/>
 		</Unit>
 		<Unit filename="C:/lapa/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

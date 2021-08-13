@@ -141,13 +141,26 @@ HandRecorder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/build
 .PHONY : HandRecorder/fast
 
+#=============================================================================
+# Target rules for targets named handwithoutArdruino
+
+# Build rule for target.
+handwithoutArdruino: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 handwithoutArdruino
+.PHONY : handwithoutArdruino
+
+# fast build rule for target.
+handwithoutArdruino/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/build
+.PHONY : handwithoutArdruino/fast
+
 MouseController.obj: MouseController.cpp.obj
 .PHONY : MouseController.obj
 
 # target to build an object file
 MouseController.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/MouseController.cpp.obj
 .PHONY : MouseController.cpp.obj
 
 MouseController.i: MouseController.cpp.i
@@ -156,7 +169,7 @@ MouseController.i: MouseController.cpp.i
 # target to preprocess a source file
 MouseController.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/MouseController.cpp.i
 .PHONY : MouseController.cpp.i
 
 MouseController.s: MouseController.cpp.s
@@ -165,7 +178,7 @@ MouseController.s: MouseController.cpp.s
 # target to generate assembly for a file
 MouseController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/MouseController.cpp.s
 .PHONY : MouseController.cpp.s
 
 SerialPort.obj: SerialPort.cpp.obj
@@ -175,6 +188,7 @@ SerialPort.obj: SerialPort.cpp.obj
 SerialPort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/SerialPort.cpp.obj
 .PHONY : SerialPort.cpp.obj
 
 SerialPort.i: SerialPort.cpp.i
@@ -184,6 +198,7 @@ SerialPort.i: SerialPort.cpp.i
 SerialPort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/SerialPort.cpp.i
 .PHONY : SerialPort.cpp.i
 
 SerialPort.s: SerialPort.cpp.s
@@ -193,7 +208,32 @@ SerialPort.s: SerialPort.cpp.s
 SerialPort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/SerialPort.cpp.s
 .PHONY : SerialPort.cpp.s
+
+StringGetter.obj: StringGetter.cpp.obj
+.PHONY : StringGetter.obj
+
+# target to build an object file
+StringGetter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/StringGetter.cpp.obj
+.PHONY : StringGetter.cpp.obj
+
+StringGetter.i: StringGetter.cpp.i
+.PHONY : StringGetter.i
+
+# target to preprocess a source file
+StringGetter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/StringGetter.cpp.i
+.PHONY : StringGetter.cpp.i
+
+StringGetter.s: StringGetter.cpp.s
+.PHONY : StringGetter.s
+
+# target to generate assembly for a file
+StringGetter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/StringGetter.cpp.s
+.PHONY : StringGetter.cpp.s
 
 ThreeDimVector.obj: ThreeDimVector.cpp.obj
 .PHONY : ThreeDimVector.obj
@@ -201,7 +241,7 @@ ThreeDimVector.obj: ThreeDimVector.cpp.obj
 # target to build an object file
 ThreeDimVector.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/ThreeDimVector.cpp.obj
 .PHONY : ThreeDimVector.cpp.obj
 
 ThreeDimVector.i: ThreeDimVector.cpp.i
@@ -210,7 +250,7 @@ ThreeDimVector.i: ThreeDimVector.cpp.i
 # target to preprocess a source file
 ThreeDimVector.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/ThreeDimVector.cpp.i
 .PHONY : ThreeDimVector.cpp.i
 
 ThreeDimVector.s: ThreeDimVector.cpp.s
@@ -219,7 +259,7 @@ ThreeDimVector.s: ThreeDimVector.cpp.s
 # target to generate assembly for a file
 ThreeDimVector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/ThreeDimVector.cpp.s
 .PHONY : ThreeDimVector.cpp.s
 
 VectorMovementConverter.obj: VectorMovementConverter.cpp.obj
@@ -228,7 +268,7 @@ VectorMovementConverter.obj: VectorMovementConverter.cpp.obj
 # target to build an object file
 VectorMovementConverter.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/VectorMovementConverter.cpp.obj
 .PHONY : VectorMovementConverter.cpp.obj
 
 VectorMovementConverter.i: VectorMovementConverter.cpp.i
@@ -237,7 +277,7 @@ VectorMovementConverter.i: VectorMovementConverter.cpp.i
 # target to preprocess a source file
 VectorMovementConverter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/VectorMovementConverter.cpp.i
 .PHONY : VectorMovementConverter.cpp.i
 
 VectorMovementConverter.s: VectorMovementConverter.cpp.s
@@ -246,7 +286,7 @@ VectorMovementConverter.s: VectorMovementConverter.cpp.s
 # target to generate assembly for a file
 VectorMovementConverter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/VectorMovementConverter.cpp.s
 .PHONY : VectorMovementConverter.cpp.s
 
 main.obj: main.cpp.obj
@@ -297,6 +337,30 @@ main2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/main2.cpp.s
 .PHONY : main2.cpp.s
 
+main3.obj: main3.cpp.obj
+.PHONY : main3.obj
+
+# target to build an object file
+main3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/main3.cpp.obj
+.PHONY : main3.cpp.obj
+
+main3.i: main3.cpp.i
+.PHONY : main3.i
+
+# target to preprocess a source file
+main3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/main3.cpp.i
+.PHONY : main3.cpp.i
+
+main3.s: main3.cpp.s
+.PHONY : main3.s
+
+# target to generate assembly for a file
+main3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/main3.cpp.s
+.PHONY : main3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -306,6 +370,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HandRecorder
+	@echo ... handwithoutArdruino
 	@echo ... reka
 	@echo ... MouseController.obj
 	@echo ... MouseController.i
@@ -313,6 +378,9 @@ help:
 	@echo ... SerialPort.obj
 	@echo ... SerialPort.i
 	@echo ... SerialPort.s
+	@echo ... StringGetter.obj
+	@echo ... StringGetter.i
+	@echo ... StringGetter.s
 	@echo ... ThreeDimVector.obj
 	@echo ... ThreeDimVector.i
 	@echo ... ThreeDimVector.s
@@ -325,6 +393,9 @@ help:
 	@echo ... main2.obj
 	@echo ... main2.i
 	@echo ... main2.s
+	@echo ... main3.obj
+	@echo ... main3.i
+	@echo ... main3.s
 .PHONY : help
 
 

@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = C:\lapa\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/reka.dir/all
 all: CMakeFiles/HandRecorder.dir/all
+all: CMakeFiles/handwithoutArdruino.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/reka.dir/clean
 clean: CMakeFiles/HandRecorder.dir/clean
+clean: CMakeFiles/handwithoutArdruino.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -82,7 +84,7 @@ clean: CMakeFiles/HandRecorder.dir/clean
 CMakeFiles/reka.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target reka"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14,15,16 "Built target reka"
 .PHONY : CMakeFiles/reka.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,12 +110,12 @@ CMakeFiles/reka.dir/clean:
 CMakeFiles/HandRecorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target HandRecorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target HandRecorder"
 .PHONY : CMakeFiles/HandRecorder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HandRecorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HandRecorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/HandRecorder.dir/rule
@@ -126,6 +128,32 @@ HandRecorder: CMakeFiles/HandRecorder.dir/rule
 CMakeFiles/HandRecorder.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/clean
 .PHONY : CMakeFiles/HandRecorder.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/handwithoutArdruino.dir
+
+# All Build rule for target.
+CMakeFiles/handwithoutArdruino.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7,8,9,10 "Built target handwithoutArdruino"
+.PHONY : CMakeFiles/handwithoutArdruino.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/handwithoutArdruino.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/handwithoutArdruino.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/handwithoutArdruino.dir/rule
+
+# Convenience name for target.
+handwithoutArdruino: CMakeFiles/handwithoutArdruino.dir/rule
+.PHONY : handwithoutArdruino
+
+# clean rule for target.
+CMakeFiles/handwithoutArdruino.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\handwithoutArdruino.dir\build.make CMakeFiles/handwithoutArdruino.dir/clean
+.PHONY : CMakeFiles/handwithoutArdruino.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

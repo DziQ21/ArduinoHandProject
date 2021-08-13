@@ -16,7 +16,6 @@ char *port = commport;
 int main(){
     std::ofstream myfile;
     myfile.open (filename);
-    myfile<<"\xEF\xBB\xBF";
     SerialPort arduino(port);
     if(arduino.isConnected()){
         std::cout<<"Connection made"<<std::endl<<std::endl;
@@ -57,7 +56,7 @@ int main(){
         arduino.readSerialPort(output, MAX_DATA_LENGTH);
         std::string ab=output;
                 //for(auto i:ab){
-                  //  std::cout<<i<<" "<<(int)i<<std::endl;
+                    //std::cout<<i<<" "<<(int)i<<std::endl;
                // }
         myfile<<output;
 

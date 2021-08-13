@@ -8,6 +8,10 @@ add_executable(reka main.cpp
         SerialPort.h SerialPort.cpp
         MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h)
 add_executable(HandRecorder main2.cpp
-        ThreeDimVector.h ThreeDimVector.cpp
         SerialPort.h SerialPort.cpp
-        MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h main2.cpp)
+       )
+add_executable(handwithoutArdruino main3.cpp
+        ThreeDimVector.h ThreeDimVector.cpp
+        StringGetter.cpp StringGetter.hpp
+        SerialPort.h SerialPort.cpp
+        MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h)
