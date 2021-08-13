@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\reka
+CMAKE_SOURCE_DIR = C:\lapa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\reka\cmake-build-debug
+CMAKE_BINARY_DIR = C:\lapa\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/reka.dir/depend.make
@@ -67,68 +67,68 @@ include CMakeFiles/reka.dir/flags.make
 
 CMakeFiles/reka.dir/main.cpp.obj: CMakeFiles/reka.dir/flags.make
 CMakeFiles/reka.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/reka.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\main.cpp.obj -c C:\reka\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/reka.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\main.cpp.obj -c C:\lapa\main.cpp
 
 CMakeFiles/reka.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reka.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\reka\main.cpp > CMakeFiles\reka.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\lapa\main.cpp > CMakeFiles\reka.dir\main.cpp.i
 
 CMakeFiles/reka.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reka.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\reka\main.cpp -o CMakeFiles\reka.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\lapa\main.cpp -o CMakeFiles\reka.dir\main.cpp.s
 
 CMakeFiles/reka.dir/ThreeDimVector.cpp.obj: CMakeFiles/reka.dir/flags.make
 CMakeFiles/reka.dir/ThreeDimVector.cpp.obj: ../ThreeDimVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reka.dir/ThreeDimVector.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\ThreeDimVector.cpp.obj -c C:\reka\ThreeDimVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reka.dir/ThreeDimVector.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\ThreeDimVector.cpp.obj -c C:\lapa\ThreeDimVector.cpp
 
 CMakeFiles/reka.dir/ThreeDimVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reka.dir/ThreeDimVector.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\reka\ThreeDimVector.cpp > CMakeFiles\reka.dir\ThreeDimVector.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\lapa\ThreeDimVector.cpp > CMakeFiles\reka.dir\ThreeDimVector.cpp.i
 
 CMakeFiles/reka.dir/ThreeDimVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reka.dir/ThreeDimVector.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\reka\ThreeDimVector.cpp -o CMakeFiles\reka.dir\ThreeDimVector.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\lapa\ThreeDimVector.cpp -o CMakeFiles\reka.dir\ThreeDimVector.cpp.s
 
 CMakeFiles/reka.dir/SerialPort.cpp.obj: CMakeFiles/reka.dir/flags.make
 CMakeFiles/reka.dir/SerialPort.cpp.obj: ../SerialPort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/reka.dir/SerialPort.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\SerialPort.cpp.obj -c C:\reka\SerialPort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/reka.dir/SerialPort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\SerialPort.cpp.obj -c C:\lapa\SerialPort.cpp
 
 CMakeFiles/reka.dir/SerialPort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reka.dir/SerialPort.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\reka\SerialPort.cpp > CMakeFiles\reka.dir\SerialPort.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\lapa\SerialPort.cpp > CMakeFiles\reka.dir\SerialPort.cpp.i
 
 CMakeFiles/reka.dir/SerialPort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reka.dir/SerialPort.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\reka\SerialPort.cpp -o CMakeFiles\reka.dir\SerialPort.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\lapa\SerialPort.cpp -o CMakeFiles\reka.dir\SerialPort.cpp.s
 
 CMakeFiles/reka.dir/MouseController.cpp.obj: CMakeFiles/reka.dir/flags.make
 CMakeFiles/reka.dir/MouseController.cpp.obj: ../MouseController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/reka.dir/MouseController.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\MouseController.cpp.obj -c C:\reka\MouseController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/reka.dir/MouseController.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\MouseController.cpp.obj -c C:\lapa\MouseController.cpp
 
 CMakeFiles/reka.dir/MouseController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reka.dir/MouseController.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\reka\MouseController.cpp > CMakeFiles\reka.dir\MouseController.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\lapa\MouseController.cpp > CMakeFiles\reka.dir\MouseController.cpp.i
 
 CMakeFiles/reka.dir/MouseController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reka.dir/MouseController.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\reka\MouseController.cpp -o CMakeFiles\reka.dir\MouseController.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\lapa\MouseController.cpp -o CMakeFiles\reka.dir\MouseController.cpp.s
 
 CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj: CMakeFiles/reka.dir/flags.make
 CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj: ../VectorMovementConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\VectorMovementConverter.cpp.obj -c C:\reka\VectorMovementConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\reka.dir\VectorMovementConverter.cpp.obj -c C:\lapa\VectorMovementConverter.cpp
 
 CMakeFiles/reka.dir/VectorMovementConverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reka.dir/VectorMovementConverter.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\reka\VectorMovementConverter.cpp > CMakeFiles\reka.dir\VectorMovementConverter.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\lapa\VectorMovementConverter.cpp > CMakeFiles\reka.dir\VectorMovementConverter.cpp.i
 
 CMakeFiles/reka.dir/VectorMovementConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reka.dir/VectorMovementConverter.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\reka\VectorMovementConverter.cpp -o CMakeFiles\reka.dir\VectorMovementConverter.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\lapa\VectorMovementConverter.cpp -o CMakeFiles\reka.dir\VectorMovementConverter.cpp.s
 
 # Object files for target reka
 reka_OBJECTS = \
@@ -150,7 +150,7 @@ reka.exe: CMakeFiles/reka.dir/build.make
 reka.exe: CMakeFiles/reka.dir/linklibs.rsp
 reka.exe: CMakeFiles/reka.dir/objects1.rsp
 reka.exe: CMakeFiles/reka.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\reka\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable reka.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable reka.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\reka.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/reka.dir/clean:
 .PHONY : CMakeFiles/reka.dir/clean
 
 CMakeFiles/reka.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\reka C:\reka C:\reka\cmake-build-debug C:\reka\cmake-build-debug C:\reka\cmake-build-debug\CMakeFiles\reka.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\lapa C:\lapa C:\lapa\cmake-build-debug C:\lapa\cmake-build-debug C:\lapa\cmake-build-debug\CMakeFiles\reka.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/reka.dir/depend
 

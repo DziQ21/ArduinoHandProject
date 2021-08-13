@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/reka/MouseController.cpp" "C:/reka/cmake-build-debug/CMakeFiles/test.dir/MouseController.cpp.obj"
-  "C:/reka/SerialPort.cpp" "C:/reka/cmake-build-debug/CMakeFiles/test.dir/SerialPort.cpp.obj"
-  "C:/reka/ThreeDimVector.cpp" "C:/reka/cmake-build-debug/CMakeFiles/test.dir/ThreeDimVector.cpp.obj"
-  "C:/reka/VectorMovementConverter.cpp" "C:/reka/cmake-build-debug/CMakeFiles/test.dir/VectorMovementConverter.cpp.obj"
-  "C:/reka/test.cpp" "C:/reka/cmake-build-debug/CMakeFiles/test.dir/test.cpp.obj"
+  "C:/lapa/MouseController.cpp" "C:/lapa/cmake-build-debug/CMakeFiles/test.dir/MouseController.cpp.obj"
+  "C:/lapa/SerialPort.cpp" "C:/lapa/cmake-build-debug/CMakeFiles/test.dir/SerialPort.cpp.obj"
+  "C:/lapa/ThreeDimVector.cpp" "C:/lapa/cmake-build-debug/CMakeFiles/test.dir/ThreeDimVector.cpp.obj"
+  "C:/lapa/VectorMovementConverter.cpp" "C:/lapa/cmake-build-debug/CMakeFiles/test.dir/VectorMovementConverter.cpp.obj"
+  "C:/lapa/test.cpp" "C:/lapa/cmake-build-debug/CMakeFiles/test.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

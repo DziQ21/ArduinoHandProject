@@ -1,4 +1,4 @@
-C:/reka/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/reka/cmake-build-debug/CMakeFiles/reka.dir
-C:/reka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/reka/cmake-build-debug/CMakeFiles/test.dir
+C:/lapa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/lapa/cmake-build-debug/CMakeFiles/reka.dir
+C:/lapa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/lapa/cmake-build-debug/CMakeFiles/test.dir
