@@ -129,17 +129,17 @@ reka/fast:
 .PHONY : reka/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named HandRecorder
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
-.PHONY : test
+HandRecorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HandRecorder
+.PHONY : HandRecorder
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+HandRecorder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/build
+.PHONY : HandRecorder/fast
 
 MouseController.obj: MouseController.cpp.obj
 .PHONY : MouseController.obj
@@ -147,7 +147,7 @@ MouseController.obj: MouseController.cpp.obj
 # target to build an object file
 MouseController.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MouseController.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.obj
 .PHONY : MouseController.cpp.obj
 
 MouseController.i: MouseController.cpp.i
@@ -156,7 +156,7 @@ MouseController.i: MouseController.cpp.i
 # target to preprocess a source file
 MouseController.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MouseController.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.i
 .PHONY : MouseController.cpp.i
 
 MouseController.s: MouseController.cpp.s
@@ -165,7 +165,7 @@ MouseController.s: MouseController.cpp.s
 # target to generate assembly for a file
 MouseController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/MouseController.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/MouseController.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/MouseController.cpp.s
 .PHONY : MouseController.cpp.s
 
 SerialPort.obj: SerialPort.cpp.obj
@@ -174,7 +174,7 @@ SerialPort.obj: SerialPort.cpp.obj
 # target to build an object file
 SerialPort.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/SerialPort.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.obj
 .PHONY : SerialPort.cpp.obj
 
 SerialPort.i: SerialPort.cpp.i
@@ -183,7 +183,7 @@ SerialPort.i: SerialPort.cpp.i
 # target to preprocess a source file
 SerialPort.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/SerialPort.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.i
 .PHONY : SerialPort.cpp.i
 
 SerialPort.s: SerialPort.cpp.s
@@ -192,7 +192,7 @@ SerialPort.s: SerialPort.cpp.s
 # target to generate assembly for a file
 SerialPort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/SerialPort.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/SerialPort.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/SerialPort.cpp.s
 .PHONY : SerialPort.cpp.s
 
 ThreeDimVector.obj: ThreeDimVector.cpp.obj
@@ -201,7 +201,7 @@ ThreeDimVector.obj: ThreeDimVector.cpp.obj
 # target to build an object file
 ThreeDimVector.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ThreeDimVector.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.obj
 .PHONY : ThreeDimVector.cpp.obj
 
 ThreeDimVector.i: ThreeDimVector.cpp.i
@@ -210,7 +210,7 @@ ThreeDimVector.i: ThreeDimVector.cpp.i
 # target to preprocess a source file
 ThreeDimVector.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ThreeDimVector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.i
 .PHONY : ThreeDimVector.cpp.i
 
 ThreeDimVector.s: ThreeDimVector.cpp.s
@@ -219,7 +219,7 @@ ThreeDimVector.s: ThreeDimVector.cpp.s
 # target to generate assembly for a file
 ThreeDimVector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/ThreeDimVector.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ThreeDimVector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/ThreeDimVector.cpp.s
 .PHONY : ThreeDimVector.cpp.s
 
 VectorMovementConverter.obj: VectorMovementConverter.cpp.obj
@@ -228,7 +228,7 @@ VectorMovementConverter.obj: VectorMovementConverter.cpp.obj
 # target to build an object file
 VectorMovementConverter.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/VectorMovementConverter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.obj
 .PHONY : VectorMovementConverter.cpp.obj
 
 VectorMovementConverter.i: VectorMovementConverter.cpp.i
@@ -237,7 +237,7 @@ VectorMovementConverter.i: VectorMovementConverter.cpp.i
 # target to preprocess a source file
 VectorMovementConverter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/VectorMovementConverter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.i
 .PHONY : VectorMovementConverter.cpp.i
 
 VectorMovementConverter.s: VectorMovementConverter.cpp.s
@@ -246,7 +246,7 @@ VectorMovementConverter.s: VectorMovementConverter.cpp.s
 # target to generate assembly for a file
 VectorMovementConverter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/VectorMovementConverter.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/VectorMovementConverter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/VectorMovementConverter.cpp.s
 .PHONY : VectorMovementConverter.cpp.s
 
 main.obj: main.cpp.obj
@@ -273,29 +273,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test.obj: test.cpp.obj
-.PHONY : test.obj
+main2.obj: main2.cpp.obj
+.PHONY : main2.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+main2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/main2.cpp.obj
+.PHONY : main2.cpp.obj
 
-test.i: test.cpp.i
-.PHONY : test.i
+main2.i: main2.cpp.i
+.PHONY : main2.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/main2.cpp.i
+.PHONY : main2.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+main2.s: main2.cpp.s
+.PHONY : main2.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/main2.cpp.s
+.PHONY : main2.cpp.s
 
 # Help Target
 help:
@@ -305,8 +305,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... HandRecorder
 	@echo ... reka
-	@echo ... test
 	@echo ... MouseController.obj
 	@echo ... MouseController.i
 	@echo ... MouseController.s
@@ -322,9 +322,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... main2.obj
+	@echo ... main2.i
+	@echo ... main2.s
 .PHONY : help
 
 

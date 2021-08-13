@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = C:\lapa\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/reka.dir/all
-all: CMakeFiles/test.dir/all
+all: CMakeFiles/HandRecorder.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,7 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/reka.dir/clean
-clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/HandRecorder.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -82,7 +82,7 @@ clean: CMakeFiles/test.dir/clean
 CMakeFiles/reka.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\reka.dir\build.make CMakeFiles/reka.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target reka"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target reka"
 .PHONY : CMakeFiles/reka.dir/all
 
 # Build rule for subdir invocation for target.
@@ -102,30 +102,30 @@ CMakeFiles/reka.dir/clean:
 .PHONY : CMakeFiles/reka.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/HandRecorder.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+CMakeFiles/HandRecorder.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\lapa\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target HandRecorder"
+.PHONY : CMakeFiles/HandRecorder.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
+CMakeFiles/HandRecorder.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HandRecorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\lapa\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+.PHONY : CMakeFiles/HandRecorder.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
-.PHONY : test
+HandRecorder: CMakeFiles/HandRecorder.dir/rule
+.PHONY : HandRecorder
 
 # clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+CMakeFiles/HandRecorder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandRecorder.dir\build.make CMakeFiles/HandRecorder.dir/clean
+.PHONY : CMakeFiles/HandRecorder.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

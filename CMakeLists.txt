@@ -7,7 +7,7 @@ add_executable(reka main.cpp
         ThreeDimVector.h ThreeDimVector.cpp
         SerialPort.h SerialPort.cpp
         MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h)
-add_executable(test test.cpp
+add_executable(HandRecorder main2.cpp
         ThreeDimVector.h ThreeDimVector.cpp
         SerialPort.h SerialPort.cpp
-        MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h)
+        MouseController.cpp MouseController.h VectorMovementConverter.cpp VectorMovementConverter.h main2.cpp)
