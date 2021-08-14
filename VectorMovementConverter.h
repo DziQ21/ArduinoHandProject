@@ -5,6 +5,7 @@
 #ifndef REKA_VECTORMOVEMENTCONVERTER_H
 #define REKA_VECTORMOVEMENTCONVERTER_H
 #include "ThreeDimVector.h"
+#define IGNORE_RATIO 0.1
 
 class VectorToMovementConverter {
 public:
@@ -14,7 +15,7 @@ public:
 private:
     std::array<float, 3> upVector,rightVector,forwardVector;
     VectorToMovementConverter()= default;;
-    std::array<float, 2> calculateMovementFromDeg(const std::array<float, 2> &vector);
+    float calculatePower(const std::array<float, 3> &vector);
 };
 
 

@@ -31,14 +31,15 @@ int main(){
     Sleep(20);
     arduino.readSerialPort(output, MAX_DATA_LENGTH);
     std::string temp1=output;
-    std::cout<<"cyce";
+    std::cout<<"cyce "<<output;
     Sleep(5000);
     arduino.writeSerialPort(charArray, 2,numerek);
     Sleep(20);
     arduino.readSerialPort(output, MAX_DATA_LENGTH);
     std::string temp2=output;
+    std::cout<<"\ncyce2 "<<output;
     VectorToMovementConverter converter(ThreeDimVector::stringToVector(temp1), ThreeDimVector::stringToVector(temp2));
-    std::cout<<"cyce2";
+    std::cout<<"cyce3";
     Sleep(1000);
 
     delete [] charArray;
