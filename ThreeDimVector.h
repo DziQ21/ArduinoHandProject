@@ -10,6 +10,9 @@ namespace ThreeDimVector{
     std::array<float,3> stringToVector(const std::string &_string);
     std::array<float,3> normalizeVector(const std::array<float,3> &vector_);
     std::array<float,3> crossProduct(const std::array<float,3> &a_,const std::array<float,3> &b_);
+    std::array<float,3> operator*(const std::array<float,3> &a_,float b);
+    std::array<float,3> operator+(const std::array<float,3> &a_,const std::array<float,3> &b_);
+    std::array<float,3> operator-(const std::array<float,3> &a_,const std::array<float,3> &b_);
     float dotProduct(const std::array<float,3> &a_,const std::array<float,3> &b_);
     bool isStringOK(const std::string &string);
 };

@@ -59,4 +59,15 @@ namespace ThreeDimVector{
             return false;
         return true;
     }
+
+    std::array<float, 3> operator*(const std::array<float, 3> &a_, float b) {
+        return {a_[0]*b,a_[1]*b,a_[2]*b};
+    }
+
+    std::array<float, 3> operator+(const std::array<float, 3> &a_, const std::array<float, 3> &b_) {
+        return {a_[0]+b_[0],a_[1]+b_[1],a_[2]+b_[2]};
+    }
+    std::array<float, 3> operator-(const std::array<float, 3> &a_, const std::array<float, 3> &b_) {
+        return {a_[0]-b_[0],a_[1]-b_[1],a_[2]-b_[2]};
+    }
 };
